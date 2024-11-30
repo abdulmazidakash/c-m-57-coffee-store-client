@@ -1,8 +1,27 @@
-# React + Vite
+## m-57 Coffee store client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## File Structure
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+```bash
+└── src/
+|     ├── assets/
+|     ├── components/
+|     |     └── AddCoffee.jsx
+|     |     └── CoffeeCards.jsx
+|     |     └── Footer.jsx
+|     |     └── Navbar.jsx
+|     ├── layouts/
+|     |     └── MainLayout.jsx     
+|     ├── pages/
+|     |     └── SignIn.jsx     
+|     |     └── SignUp.jsx     
+|     |     └── UpdateCoffee.jsx     
+|     |     └── Users.jsx     
+|     |     └── Home.jsx     
+|     ├── routes/
+|     |     └── Routes.jsx
+|     ├── utils/
+|     |     └── index.js
+└── Main.jsx
